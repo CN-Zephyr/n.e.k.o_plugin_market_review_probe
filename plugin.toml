@@ -1,8 +1,9 @@
 [plugin]
+permissions = ["clipboard"]
 id = "market_review_probe"
 name = "Market 审核验收专用插件"
 description = "平台灰度验收夹具，仅返回固定标记；普通用户无需安装。"
-version = "0.1.1"
+version = "0.2.0"
 type = "plugin"
 entry = "plugin.plugins.market_review_probe:MarketReviewProbePlugin"
 
