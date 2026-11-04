@@ -1,0 +1,14 @@
+[plugin]
+id = "market_review_probe"
+name = "Market 审核验收专用插件"
+description = "平台灰度验收夹具，仅返回固定标记；普通用户无需安装。"
+version = "0.1.0"
+type = "plugin"
+entry = "plugin.plugins.market_review_probe:MarketReviewProbePlugin"
+
+[plugin.author]
+name = "111111111"
+
+[plugin.sdk]
+recommended = ">=0.1.0,<0.2.0"
+supported = ">=0.1.0,<0.3.0"

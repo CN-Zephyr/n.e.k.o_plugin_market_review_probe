@@ -1,0 +1,6 @@
+{
+  "nekoPlugin.repoRoot": "../../worktrees/plugin-publication-receipt-20261104",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/../../worktrees/plugin-publication-receipt-20261104"
+  ]
+}
