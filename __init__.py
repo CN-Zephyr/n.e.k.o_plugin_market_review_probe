@@ -7,6 +7,7 @@ def network_review_fixture():
     """Static review fixture only; no plugin entry or startup path invokes this."""
     request = Request("https://review.example.invalid/market-review-probe", method="GET")
     request.add_header("X-Market-Review", "approval-wait-fixture")
+    request.add_unredirected_header("X-Market-Expiry", "natural-expiry-fixture")
     with urlopen(request, timeout=1) as response:
         return response.status
 
